@@ -1,6 +1,19 @@
 body {
     background: darkslategray;
     font-family:Arial, Helvetica, sans-serif;
+    color: darkseagreen;
+}
+
+.assignment {
+    display: flex;
+    padding: 10px;   
+    margin: 10px;
+    background: slategray
+}
+
+.assignment img {
+    width: 250px;
+    padding: 10px; 
 }
 
 h1 {
