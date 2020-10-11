@@ -13,10 +13,16 @@ body {
 
 .assignment img {
     width: 250px;
-    padding: 10px; 
+    border: 5px solid darkslategray;
+    margin-right: 20px;
 }
 
 h1 {
     color: darkseagreen;
     text-align: center
+}
+
+a {
+    text-decoration: none;
+    color: azure;
 }
