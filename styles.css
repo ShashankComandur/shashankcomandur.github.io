@@ -107,8 +107,7 @@ body {
     color: white;
     letter-spacing: -1px;
     padding: 1px;
-    max-width:51%;
-    max-height:50%;
+    text-align: center;
     margin-top: 1px;
     margin: 0; 
 }
