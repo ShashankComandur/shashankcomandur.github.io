@@ -3,6 +3,12 @@
     zoom: 1.0 ;
 } 
 
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+  
+
 body {
     /* Background Image */
     background-image: url(img/background.png);
@@ -65,10 +71,10 @@ body {
     letter-spacing: -1px;
     text-align: center;
     padding-top: 10px;  
-    /*position: absolute;
+    position: absolute;
     top: 6%;
     left: 50%;
-    transform: translate(-50%, -50%);*/
+    transform: translate(-50%, -50%);
 }
 
 /* Header Image */
