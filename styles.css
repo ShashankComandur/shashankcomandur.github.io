@@ -12,8 +12,8 @@ body {
 /* Gotham Font Kit */
 @font-face {
     font-family: 'gothambold';
-    src: url('files/Gotham\ Font\ Kit/gotham-bold_700.woff2') format('woff2'),
-         url('files/Gotham\ Font\ Kit/gotham-bold_700.woff') format('woff');
+    src: url('Files/Gotham\ Font\ Kit/gotham-bold_700.woff2') format('woff2'),
+         url('Files/Gotham\ Font\ Kit/gotham-bold_700.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
