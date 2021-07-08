@@ -24,8 +24,21 @@ body {
     -o-background-size: cover;
     background-size: cover;
     color: white;
-    font-family: 'gothambold';
-    padding-bottom: 10px;
+    font-family: 'helvetica';
+    font-weight: bold;
+}
+
+.options {
+    font-size: 30px;
+    letter-spacing: -1px;
+    display: block;
+}
+
+/** Bootstrap Overrides **/ 
+
+.col-sm-4 {
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 /* Gotham Font Kit */
@@ -36,6 +49,7 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
 
 /* Nav Bar */
 .topnav {
@@ -70,51 +84,33 @@ body {
     color: white;
 }
 
-/* Header Text */
-.header-txt {
+/* Options Hover */
+a {
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+  
+a::before {
+    content: "";
+    position: absolute;
     display: block;
-    font-family: 'gothambold';
-    font-size: 30px;
-    color: white;
-    letter-spacing: -1px;
-    text-align: center;
-    position: absolute; 
-    top: 20px; 
-    left: 0; 
-    width: 100%; 
+    width: 98%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff3000;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.5s ease;
 }
-
-
-/* Home Page Options */
-.options {
-    padding: 10px;   
-    background: rgba(0, 0, 0, 0);
-    border-radius: 8px;
-    display: flex;
+  
+a:hover::before {
+    transform: scaleX(1);
 }
-
-.options img {
-    display: block;
-    width: 250px;
-    border: 5px solid #84c3ff;
-    margin-right: 50px;
-    border-radius: 8px;   
-}
-
-/* Footer Text */
-.footer-txt {
-    font-family: 'gothambold';
-    font-size: 15px;
-    color: white;
-    letter-spacing: -1px;
-    text-align: center;
-}
-
-/* Footer Image 
-.footer-img {
-    object-fit: contain;
-    display: block;
-    margin: auto;
-    padding-bottom: 0%;
-    border-bottom: 0;
-} */
+  
